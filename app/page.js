@@ -15,9 +15,11 @@ const IndexPage = () => {
                         <Button>Галерея</Button>
                         <Button>О нас</Button>
                     </div>
-                    <div className="flex items-center bg-white rounded-md px-1.5 py-1">
+                    <div className="flex items-center bg-white rounded-md px-1.5 py-1"
+                         style={{position: 'relative', overflow: 'hidden'}}>
                         <Image className="mr-1" src="/icon.svg" alt="Город" width={19} height={19}/>
-                        <select className="text-xl bg-white text-black font-bold px-1 font-sans">
+                        <select className="text-xl bg-white text-black font-bold px-1 font-sans"
+                                style={{maxWidth: '100%'}}>
                             {cities.map((city) => (
                                 <option key={city} value={city}>
                                     {city}
