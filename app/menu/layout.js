@@ -1,6 +1,6 @@
 export const metadata = {
-    title: 'О нас',
-    description: 'About',
+    title: 'Меню',
+    description: 'Menu',
 }
 
 export default function RootLayout({children}) {
