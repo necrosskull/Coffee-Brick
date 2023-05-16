@@ -1,34 +1,25 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Coffe Brick main page
 
-## Getting Started
+## При создании макета, был использован следующий стек технологий:
 
-First, run the development server:
+- Next.js
+- React.js
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+## Имеется опубликованная версия проекта:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+https://coffee-brick.vercel.app
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Для запуска проекта необходимо:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- Склонировать репозиторий
+- Установить зависимости `npm install`
+- Запустить проект `npm run dev`
+- Открыть в браузере [http://localhost:3000](http://localhost:3000)
 
-## Learn More
+## Макет в Figma на основе которого был создан проект:
 
-To learn more about Next.js, take a look at the following resources:
+https://www.figma.com/file/FhbI2U2Fov9W70jaT4tzN0/Coffee-Brick-website?type=design&node-id=81%3A209&t=jOVseG5UpMjPQWvg-1
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Исходный код проекта:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+https://github.com/necrosskull/Coffee-Brick
