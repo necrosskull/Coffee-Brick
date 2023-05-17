@@ -38,24 +38,26 @@ export default function Home() {
             <div className="bg-blue-200 flex-grow">
                 <main className="container mx-auto px-12 py-2">
                     <div className="min-h-full flex-grow bg-gray- rounded-md p-8">
-                        <div className="flex h-96">
+                        <div className="flex mb-8">
+
                             <div
-                                className="bg-white w-full p-4 text-center flex items-center justify-center flex-col text-xl rounded-lg relative overflow-hidden">
-                                <p className="text-black font-bold">Добро пожаловать в нашу кофейню, где не только
-                                    ароматный кофе, но и восхитительное оформление выполнено из лего! Мы создали
-                                    уникальную атмосферу, которая поразит вас своей яркостью и оригинальностью. У нас вы
-                                    сможете насладиться не только отличным кофе, но и вкусной выпечкой, сендвичами и
-                                    другими сытными блюдами.
-
-                                    Не пропустите возможность окунуться в мир детства, приятно провести время с друзьями
-                                    или коллегами, а также порадовать ваших детей. Наша кофейня открыта для всех, кто
-                                    любит настоящую культуру кофе и интересное оформление.
-
-                                    У нас соблюдаются все правила гигиены и безопасности, чтобы вы могли спокойно
-                                    наслаждаться атмосферой и вкусами кофе.
-
-                                    Посетите нашу кофейню сегодня и отправьтесь в путешествие в мир лего, наслаждаясь
-                                    ароматом свежевыпеченных блюд и чашкой горячего кофе. Мы будем рады видеть вас!</p>
+                                className="text-blue-950 w-1/3 font-bold bg-emerald-500 rounded-lg p-4  flex items-center justify-center flex-col text-xl relative overflow-hidden">
+                                <p>Мы - Coffee Brick! Первая в России, уютная кофейня в стилистке лего с настоящим музеем лего!
+                                    Но это не все! В нашей кофейне мы также проводим различные мастер-классы, где можно узнать все тонкости изготовления кофе и попробовать свои силы в этом искусстве!
+                                </p>
+                            </div>
+                            <div
+                                className="bg-emerald-700 p-4 w-2/3 ml-4 text-center flex items-center justify-center flex-col text-xl rounded-lg relative overflow-hidden">
+                                <p className="text-emerald-100 font-bold">У нас вы можете прекрасно отдохнуть и попробовать самый вкусный кофе в вашей жизни, сделанный мастерами своего дела!
+                                </p>
+                                <Image src={"/table.png"} alt={"Стол"} width={250} height={250}/>
+                            </div>
+                        </div>
+                        <div className="flex">
+                            <div
+                                className="bg-white p-4 w-full mx-40 text-center flex items-center justify-center flex-col text-xl rounded-lg relative overflow-hidden">
+                                <p className="text-black font-bold">Вы всегда можете найти нас по данному адресу: Москва, Пр-т Вернадского, д. 78</p>
+                                <Image className="mt-2" src={"/map.png"} alt="Карта" width={500} height={500}></Image>
                             </div>
                         </div>
 
