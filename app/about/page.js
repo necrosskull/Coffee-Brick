@@ -41,22 +41,26 @@ export default function Home() {
                         <div className="flex mb-8">
 
                             <div
-                                className="text-blue-950 w-1/3 font-bold bg-emerald-500 rounded-lg p-4  flex items-center justify-center flex-col text-xl relative overflow-hidden">
-                                <p>Мы - Coffee Brick! Первая в России, уютная кофейня в стилистке лего с настоящим музеем лего!
-                                    Но это не все! В нашей кофейне мы также проводим различные мастер-классы, где можно узнать все тонкости изготовления кофе и попробовать свои силы в этом искусстве!
+                                className="text-white w-1/3 font-bold bg-emerald-600 rounded-lg p-4  flex items-center justify-center flex-col text-xl relative overflow-hidden">
+                                <p>Мы - Coffee Brick! Первая в России, уютная кофейня в стилистке лего с настоящим
+                                    музеем лего!
+                                    Но это не все! В нашей кофейне мы также проводим различные мастер-классы, где можно
+                                    узнать все тонкости изготовления кофе и попробовать свои силы в этом искусстве!
                                 </p>
                             </div>
                             <div
                                 className="bg-emerald-700 p-4 w-2/3 ml-4 text-center flex items-center justify-center flex-col text-xl rounded-lg relative overflow-hidden">
-                                <p className="text-emerald-100 font-bold">У нас вы можете прекрасно отдохнуть и попробовать самый вкусный кофе в вашей жизни, сделанный мастерами своего дела!
+                                <p className="text-emerald-100 font-bold">У нас вы можете прекрасно отдохнуть и
+                                    попробовать самый вкусный кофе в вашей жизни, сделанный мастерами своего дела!
                                 </p>
                                 <Image src={"/table.png"} alt={"Стол"} width={250} height={250}/>
                             </div>
                         </div>
                         <div className="flex">
                             <div
-                                className="bg-white p-4 w-full mx-40 text-center flex items-center justify-center flex-col text-xl rounded-lg relative overflow-hidden">
-                                <p className="text-black font-bold">Вы всегда можете найти нас по данному адресу: Москва, Пр-т Вернадского, д. 78</p>
+                                className="bg-blue-300 p-4 w-full mx-40 text-center flex items-center justify-center flex-col text-xl rounded-lg relative overflow-hidden">
+                                <p className="text-blue-950 font-bold">Вы всегда можете найти нас по данному адресу:
+                                    Москва, Пр-т Вернадского, д. 78</p>
                                 <Image className="mt-2" src={"/map.png"} alt="Карта" width={500} height={500}></Image>
                             </div>
                         </div>
@@ -65,7 +69,7 @@ export default function Home() {
                 </main>
             </div>
             <footer
-                className="bg-orange-900 py-6 text-whitetext-center flex items-center justify-center flex-col text-xl font-bold">
+                className="bg-orange-900 py-6 text-white text-center flex items-center justify-center flex-col text-xl font-bold">
                 <p>© 2023 Coffee Brick (ООО «КОФИ БРИК РАША»)</p>
             </footer>
         </div>

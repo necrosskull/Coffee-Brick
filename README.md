@@ -1,4 +1,8 @@
-# Coffe Brick main page
+# Coffe Brick website
+
+### Главная страница выполнена Куряевым В.А. КТСО-04-20
+
+### Раздел "О нас" выполнен Цыцора Д.М. КТСО-04-20
 
 ## При создании макета, был использован следующий стек технологий:
 
@@ -18,7 +22,7 @@ https://coffee-brick.vercel.app
 
 ## Макет в Figma на основе которого был создан проект:
 
-https://www.figma.com/file/FhbI2U2Fov9W70jaT4tzN0/Coffee-Brick-website?type=design&node-id=81%3A209&t=jOVseG5UpMjPQWvg-1
+https://www.figma.com/file/FhbI2U2Fov9W70jaT4tzN0/Coffee-Brick-website?type=design&node-id=0%3A1&t=v9ekCGEwMce62SYx-1
 
 ## Исходный код проекта:
 
