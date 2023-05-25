@@ -4,6 +4,7 @@ import React from 'react';
 import Image from 'next/image';
 import Button from "@/app/components/Button";
 import Link from "next/link";
+import Card from "@/app/components/Card";
 
 const cities = ['Москва', 'Киев', 'Минск'];
 
@@ -38,9 +39,11 @@ export default function Home() {
                 <main className="container mx-auto px-12 py-2">
                     <div className="min-h-full flex-grow bg-gray- rounded-md p-8">
                         <div className="flex">
+                           
                             <div
                                 className="bg-white w-full p-4 text-center flex items-center justify-center flex-col text-xl rounded-lg relative overflow-hidden">
-                                <p className="text-black font-bold">Тут должна быть галерея</p>
+                                <Card/>
+
                             </div>
                         </div>
 
