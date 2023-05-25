@@ -5,6 +5,7 @@ import Image from 'next/image';
 import Button from "@/app/components/Button";
 import Link from "next/link";
 import Card from "@/app/components/Card";
+import Card2 from "@/app/components/Card2";
 
 const cities = ['Москва', 'Киев', 'Минск'];
 
@@ -37,14 +38,27 @@ export default function Home() {
             </header>
             <div className="bg-blue-200 flex-grow">
                 <main className="container mx-auto px-12 py-2">
-                    <div className="min-h-full flex-grow bg-gray- rounded-md p-8">
-                        <div className="flex">
-                           
+                    <div className="min-h-full flex-grow bg-gray- rounded-md p-8 mx-32">
+                        <div className="flex mb-2">
+
                             <div
-                                className="bg-white w-full p-4 text-center flex items-center justify-center flex-col text-xl rounded-lg relative overflow-hidden">
+                                className="bg-emerald-600 w-full p-4 text-center flex items-center justify-center flex-col text-xl rounded-lg relative overflow-hidden mb-8">
+                                <p className="text-emerald-50 text-3xl font-bold mb-4">Наш музей</p>
+                                <Card2/>
+
+                            </div>
+
+                        </div>
+
+                        <div className="flex">
+
+                            <div
+                                className="bg-orange-200 w-full p-4 text-center flex items-center justify-center flex-col text-xl rounded-lg relative overflow-hidden">
+                                <p className="text-black text-3xl font-bold mb-4 text-gray-700">Мастер классы</p>
                                 <Card/>
 
                             </div>
+
                         </div>
 
                     </div>

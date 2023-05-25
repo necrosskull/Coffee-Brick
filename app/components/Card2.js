@@ -13,10 +13,11 @@ const Card = () => {
     };
 
     const images = [
-        'mk2.jpg',
-        'mk1.jpg',
-        'mk3.webp',
-        'map.png',
+        'lego1.jpg',
+        'lego2.jpg',
+        'lego3.jpg',
+        'lego4.jpg',
+
 
     ];
     const [selectedImage, setSelectedImage] = useState(images[0]);
@@ -49,7 +50,7 @@ const Card = () => {
                                 src={image}
                                 alt="Thumbnail"
                                 className={`w-full h-full object-cover rounded-lg ${
-                                    selectedImage === image ? 'border-4 border-orange-400' : ''
+                                    selectedImage === image ? 'border-4 border-emerald-300' : ''
                                 }`}
                             />
                         </div>
