@@ -31,8 +31,8 @@ const Card = () => {
         <div className="flex h-96 mb-4">
             <div className="w-2/3 mx-10">
                 {selectedImage ? (
-                    <Image src={selectedImage} width={1000}
-                           height={1000} alt="Selected" className={`w-full h-full object-cover rounded-lg`}/>
+                    <img src={selectedImage} width={1000}
+                         height={1000} alt="Selected" className={`w-full h-full object-cover rounded-lg`}/>
                 ) : (
                     <div className="w-full h-64 bg-gray-200 flex items-center justify-center">
                         Select an image
@@ -47,7 +47,7 @@ const Card = () => {
                             className="h-1/4 w-full p-2"
                             onClick={() => handleImageSelect(image)}
                         >
-                            <Image
+                            <img
                                 src={image}
                                 alt="Thumbnail"
                                 className={`w-full h-full object-cover rounded-lg ${
